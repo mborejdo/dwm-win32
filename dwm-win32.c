@@ -710,7 +710,7 @@ ismanageable(HWND hwnd) {
         wcsstr(title, L"Cortana") ||
         wcsstr(title, L"Start") ||
         wcsstr(title, L"Windows Default Lock Screen") ||
-        wcsstr(title, L"Search"))) {
+        wcsstr(title, L"Search") || wcsstr(title, L"Suche"))) {
         return false;
     }
 
